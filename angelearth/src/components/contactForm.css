@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+.caption {
+  font-size: 16px;
+  margin: -5px auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  align-content: space-between;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(39, 39, 40), rgb(75, 75, 75));
+  padding: 20px;
+}
+.items {
+  width: 100%;
+  max-width: 250px;
+  align-items: center;
+}
+
+.inputs {
+  height: 30px;
+  width: 100%;
+}
+
+.stretch {
+  width: 90%;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.consent {
+  color: white;
+}
+
+button {
+  padding: 20px;
+  color: white;
+  background: linear-gradient(to right, rgb(24, 24, 25), rgb(75, 75, 75));
+}
